@@ -13,7 +13,8 @@ a:hover{
 
 /* HEADER */
 header{
-    position: sticky;
+    width: 100%;
+    position: fixed;
     padding: 0 2rem;
     background-color: var(--clr-white-light);
 }
@@ -27,9 +28,8 @@ header{
     width: 110px;
 }
 .navbar {
-    width: 100%;
+    width: 90%;
     height: 60px;
-    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     align-items: center;

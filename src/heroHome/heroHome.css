@@ -1,0 +1,30 @@
+
+.breaker {
+    width: 100%;
+    height: 41px;
+    display: block;
+    background-color: transparent;
+}
+.heroHome {
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 60fr 20fr 20fr;
+    gap: 1.2rem;
+}
+
+.top_new,
+.primary_new,
+.secondary_new,
+.terceary_new,
+.quarter_new {
+    height: 100%;
+    background: rgba(35, 130, 194, 0.6);
+    box-shadow: 1px 2px 3px rgba(35, 130, 194, 0.6);
+    margin-top: 1.2rem;
+}
+
+.top_new {
+    grid-row: span 2;
+    padding: 200px;
+}

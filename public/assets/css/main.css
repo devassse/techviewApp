@@ -3,7 +3,7 @@
     --clr-primary: #2382c2;
     --clr-primary-lighter: rgba(35, 130, 194, 0.1);
     --clr-white: #ffffff;
-    --clr-white-light: rgb(255, 255, 255, 0.8);
+    --clr-white-light: rgb(255, 255, 255, 0.9);
 }
 * {
     margin: 0;
