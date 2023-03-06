@@ -10,21 +10,24 @@ export default function topBar() {
                     </a>
                 </div>
                 <ul className="links">
-                    <li>
+                    <li className="link">
                         <a href="#home">Home</a>
                     </li>
-                    <li>
+                    <li className="link">
                         <a href="#news">News</a>
                     </li>
-                    <li>
+                    <li className="link">
                         <a href="#about">About</a>
                     </li>
-                    <li>
+                    <li className="link">
                         <a href="#contacts">Contacts</a>
                     </li>
                     <li className="social">
                         <a href="#facebook"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#youtube"><i class="fa-brands fa-square-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="#search"> <i class="fa-solid fa-magnifying-glass"></i></a>
                     </li>
                 </ul>
                 <a href="#btn" className="action_btn">

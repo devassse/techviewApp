@@ -1,0 +1,12 @@
+.favorites{
+    width: 90%;
+    margin: 1.6rem auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+}
+
+.favorite {
+    padding: 125px;
+    background: var(--clr-primary)
+}

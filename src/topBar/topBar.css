@@ -2,13 +2,27 @@
 li{
     list-style: none;
 }
+.link {
+    padding: 1rem;
+    border-bottom: 3px solid transparent;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.link:hover {
+    background-color: var(--clr-white-light);
+    border-bottom: 3px solid var(--clr-secondary);
+}
+.link:hover a {
+    color: var(--clr-secondary);
+}
 a {
     text-decoration: none;
     color: var(--clr-primary);
     font-size: 1rem;
+    font-weight: bold;
 }
 a:hover{
-    color: var(--clr-white);
+    color: var(--clr-secondary);
 }
 
 /* HEADER */
@@ -38,7 +52,8 @@ header{
 
 .navbar .links {
     display: flex;
-    gap: 2rem;
+    align-items: center;
+    gap: 1.6rem;
 }
 
 .navbar .toggle_btn {
@@ -70,7 +85,7 @@ header{
 
 .action_btn:hover {
     scale: 1.05;
-    color: #fff;
+    color: var(--clr-white);
 }
 .action_btn:active{
     scale: 0.95;
