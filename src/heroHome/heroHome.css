@@ -1,7 +1,7 @@
 
 .breaker {
     width: 100%;
-    height: 41px;
+    height: 50px;
     display: block;
     background-color: transparent;
 }
@@ -19,11 +19,18 @@
 .terceary_new,
 .quarter_new {
     height: 100%;
-    background: rgba(35, 130, 194, 0.6);
+    /* background: rgba(35, 130, 194, 0.6); */
     margin-top: 0.6rem;
 }
 
 .top_new {
     grid-row: span 2;
-    padding: 300px;
+}
+.top_new img,
+.primary_new img,
+.secondary_new img,
+.terceary_new img,
+.quarter_new img{
+    height: 100%;
+    position: relative;
 }

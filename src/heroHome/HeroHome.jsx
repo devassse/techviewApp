@@ -5,11 +5,21 @@ export default function heroHome() {
         <section>
             <span className='breaker'></span>
             <article className='heroHome'>
-                <div className="top_new"></div>
-                <div className="primary_new"></div>
-                <div className="secondary_new"></div>
-                <div className="terceary_new"></div>
-                <div className="quarter_new"></div>
+                <div className="top_new">
+                    <img src="assets/imgs/techview-bg.jpg" alt="" />
+                </div>
+                <div className="primary_new">
+                    <img src="assets/imgs/techview-bg.jpg" alt="" />
+                </div>
+                <div className="secondary_new">
+                    <img src="assets/imgs/techview-bg.jpg" alt="" />
+                </div>
+                <div className="terceary_new">
+                    <img src="assets/imgs/techview-bg.jpg" alt="" />
+                </div>
+                <div className="quarter_new">
+                    <img src="assets/imgs/techview-bg.jpg" alt="" />
+                </div>
             </article>
         </section>
     )

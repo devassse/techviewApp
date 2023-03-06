@@ -1,0 +1,31 @@
+.footer_section {
+    width: 100%;
+    margin-top: 1.2rem;
+    background-color: var(--clr-secondary);
+    color: var(--clr-white);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+}
+.footer_info {
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+}
+.about,
+.site_map,
+.mini_links,
+.date_time{
+    padding: 100px;
+    background-color: var(--clr-white);
+}
+
+.copyright p,
+.info p{
+    font-size: 12px;
+    padding: 0 1rem 1rem 1rem;
+}
+.info p{
+    text-align: right;
+}
