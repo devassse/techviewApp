@@ -1,2 +1,0 @@
-# techviewapp
-Porta de Tecnologia

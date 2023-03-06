@@ -1,9 +1,10 @@
+import TopBar from "./topBar/TopBar";
 
 function App() {
   return (
-    <div className="App">
-      <h1>TechView</h1>
-    </div>
+    <>
+      <TopBar />
+    </>
   );
 }
 
