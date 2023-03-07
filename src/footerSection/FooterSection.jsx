@@ -10,10 +10,10 @@ export default function footerSection() {
                 <div className="date_time"></div>
             </div>
             <div className="copyright">
-            <p>Todos Direitos Reservados</p>
+                <p>TechView - Portal de Tecnologia | 2023</p>
             </div>
             <div className="info">
-                <p>TechView - Portal de Tecnologia</p>
+                <p>Todos Direitos Reservados &copy; <a href="software.keomagroup.com" target={'_blank'}>Keoma Software, Inc.</a></p>
             </div>
         </section>
     )
